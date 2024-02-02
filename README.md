@@ -1,7 +1,7 @@
 # yup
 
 A small(er) implementation of the UNIX command "yes",
-with very limited functionality.
+with very limited functionality. Written by anson in Feb 2024
 
 Limited functionality in that all that this program does
 is simply print a single character in a loop to stdout.
@@ -23,7 +23,7 @@ bytes, which I believe is doable. I will update this project with
 better/smaller versions when I can understand more. Hopefully.
 
 ### v. 1.0.0 (First Release)
-Jan 2024
+Feb 2024
 
 A small(er) implementation of the UNIX command "yes".
 This program does not accept arguments.
