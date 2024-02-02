@@ -1,6 +1,3 @@
-	bits 64
-	cpu x64
-
 section .data
 	confirm:	db 'y', 0Ah
 
@@ -12,8 +9,8 @@ _start:
 	inc	ax
 	xor	di, di		; write to stdout
 	inc	di
-	mov	esi, confirm		; load our default string to repeat
-	mov	dl, 2			; 3 characters, plus newline
+	mov	esi, confirm
+	mov	dl, 2		; 1 char, plus newline
 loop:
 	syscall
 	xor	ax, ax
