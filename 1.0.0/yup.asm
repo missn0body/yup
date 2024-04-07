@@ -5,10 +5,8 @@ section .text
 global _start
 
 _start:
-	xor	ax, ax		; prepare for future write calls
 	inc	ax
-	xor	di, di		; write to stdout
-	inc	di
+	inc	di		; write to stdout
 	mov	esi, confirm
 	mov	dl, 2		; 1 char, plus newline
 loop:
